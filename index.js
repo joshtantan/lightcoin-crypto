@@ -9,7 +9,7 @@ class Account {
 
     this.transactions.forEach(transaction => {
       balance += transaction.value;
-    })
+    });
 
     return balance;
   }
